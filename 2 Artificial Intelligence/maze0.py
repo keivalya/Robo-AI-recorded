@@ -1,7 +1,4 @@
-from PIL import Image, ImageDraw
-from IPython.display import display
 import sys
-from search import StackContainer, QueueContainer
 
 class Node():
   def __init__(self, state, parent, action):
@@ -81,6 +78,7 @@ class Maze():
 
         self.solution = None
 
+
     def print(self):
         solution = self.solution[1] if self.solution is not None else None
         print()
@@ -99,6 +97,7 @@ class Maze():
             print()
         print()
 
+
     def neighbors(self, state):
         row, col = state
         candidates = [
@@ -113,6 +112,7 @@ class Maze():
             if 0 <= r < self.height and 0 <= c < self.width and not self.walls[r][c]:
                 result.append((action, (r, c)))
         return result
+
 
     def solve(self):
         """Finds a solution to maze, if one exists."""
@@ -162,7 +162,9 @@ class Maze():
                     child = Node(state=state, parent=node, action=action)
                     container.add(child)
 
-    def output_image(self, show_solution=True, show_explored=True):
+
+    def output_image(self, filename, show_solution=True, show_explored=True):
+        from PIL import Image, ImageDraw
         cell_size = 50
         cell_border = 2
 
@@ -209,11 +211,13 @@ class Maze():
                     fill=fill
                 )
 
-        # Display the image in the notebook
-        display(img)
+        img.save(filename)
 
-# Example usage:
-m = Maze('maze1.txt')
+
+if len(sys.argv) != 2:
+    sys.exit("Usage: python maze.py maze.txt")
+
+m = Maze(sys.argv[1])
 print("Maze:")
 m.print()
 print("Solving")
@@ -221,4 +225,4 @@ m.solve()
 print("States Explored:", m.num_explored)
 print("Solution:")
 m.print()
-m.output_image(show_explored=True)
+m.output_image("maze.png", show_explored=True)
