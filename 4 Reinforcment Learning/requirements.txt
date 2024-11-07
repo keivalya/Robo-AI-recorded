@@ -1,0 +1,2 @@
+"gymnasium[classic_control]"
+numpy
