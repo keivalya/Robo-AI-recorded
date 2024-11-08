@@ -19,27 +19,29 @@ def get_discrete_state(state):
     return tuple(discrete_state.astype(np.int32))
 
 # our simulation starts here
-discrete_state = get_discrete_state(env.reset())
-done = False
-while not done:
-    action = np.argmax(q_table[discrete_state]) # instead of 2
-    new_state, reward, done, _, _ = env.step(action)
-    new_discrete_state = get_discrete_state(new_state)
-    if not done:
-        # Maximum possible Q value in next step (for new state)
-        max_future_q = np.max(q_table[new_discrete_state])
+for espisode in range(eps):
+    discrete_state = get_discrete_state(env.reset())
+    done = False
+    while not done:
+        action = np.argmax(q_table[discrete_state]) # instead of 2
+        new_state, reward, done, _, _ = env.step(action)
+        new_discrete_state = get_discrete_state(new_state)
+        if not done:
+            # Maximum possible Q value in next step (for new state)
+            max_future_q = np.max(q_table[new_discrete_state])
 
-        # Current Q value (for current state and performed action)
-        current_q = q_table[discrete_state + (action,)]
+            # Current Q value (for current state and performed action)
+            current_q = q_table[discrete_state + (action,)]
 
-        # And here's our equation for a new Q value for current state and action
-        new_q = (1 - alpha) * current_q + alpha * (reward + gamma * max_future_q)
+            # And here's our equation for a new Q value for current state and action
+            new_q = (1 - alpha) * current_q + alpha * (reward + gamma * max_future_q)
 
-        # Update Q table with new Q value
-        q_table[discrete_state + (action,)] = new_q
+            # Update Q table with new Q value
+            q_table[discrete_state + (action,)] = new_q
 
-    elif new_state[0] >= env.goal_position:
-        #q_table[discrete_state + (action,)] = reward
-        q_table[discrete_state + (action,)] = 0
+        # if sim ends for any reason,
+        elif new_state[0] >= env.goal_position:
+            # q_table[discrete_state + (action,)] = reward
+            q_table[discrete_state + (action,)] = 0
 
-    discrete_state = new_discrete_state
+        discrete_state = new_discrete_state
