@@ -8,7 +8,7 @@ This repository contains a structured guide for topics in Python, Artificial Int
 
 ---
 
-## Topics Covered
+## Artificial Intelligence / Machine Learning Topics Covered
 
 | **Topic Name**              | **Basic**                                                                                                                                 | **Advanced**                                                                                                           |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
@@ -22,6 +22,23 @@ This repository contains a structured guide for topics in Python, Artificial Int
 | **Large Language Modeling** | - Introduction to HuggingFace<br>- Hands-on Project Development<br>- GUI for ChatBots                                                | - Creating a personal assistant using Gradio<br>- Creating a Text-Summarization App (similar to Quillbot)             |
 | **Image Processing**        | - What is an image (human vs computer)?<br>- Image enhancement techniques, color correction                                           | - Hands-on:<br>&nbsp;&nbsp;- Image sharpening<br>&nbsp;&nbsp;- Edge detection<br>&nbsp;&nbsp;- Noise reduction<br>&nbsp;&nbsp;- Feature extraction |
 | **Convolutional Neural Nets** | - Convolutional Neural Networks<br>- Types of Convolutions (Strided, Dilated, Padding, Pooling Layers)                              | - Hands-on coding for computer vision using OpenCV<br>- Modern computer vision applications:<br>&nbsp;&nbsp;- YOLOx Series<br>&nbsp;&nbsp;- SAM by Meta |
+
+---
+
+## Robot Operating System (ROS2) / Mapping & Navigation
+
+| **Topic Name**                  | **Basic**                                                                                                                                                            | **Advanced**                                                                                                                      |
+|---------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| **ROS2 Installation and Setup** | - Downloading ISO image for ROS2 Humble Hawksbill and Ubuntu<br>- Install Ubuntu 22.04 on Oracle VirtualBox<br>- Installing ROS2 Humble in the VM                  | - Installing Programming Tools (e.g., Terminal, Visual Studio Code)<br>- Install Colcon<br>- Create Workspace                   |
+| **Introduction to ROS2**        | - What is ROS2? Why, and When to use it?<br>- ROS2 Application in Industry, Use-case and applications                                                              | - ROS2 Fundamentals<br>- Nodes, RQT, RQT_Graph<br>- Hands-on: Writing your first Python Node (Minimum Implementation)           |
+| **Nodes**                       | - Hands-on: Writing your first Python Node (OOPs Method)                                                                                                          | - Talker-Listener Demo<br>- TurtleSim Simulation<br>- Teleoperation                                                              |
+| **Publisher / Subscriber**      | - Understanding Publisher-Subscriber Architecture in context of Robotics                                                                                         | - Hands-on writing your own Publisher Node and a Subscriber Node                                                                |
+| **ROS2 Essentials**             | - Fundamentals of ROS2 in Robotics<br>- Topics, Services, Launch files, Workspace                                                                                 | - Packages<br>- Understanding Transforms (TFs)                                                                                  |
+| **Robot Description and Visualization** | - Create a URDF of a Robot<br>- Create and Visualize a link, Material property<br>- Combine 2 links with a joint, Types of joints in a URDF, Add a wheel     | - Robot State Publisher<br>- Improve URDF with XACRO                                                                            |
+| **Simulation**                  | - Run Gazebo<br>- How Gazebo works<br>- Add Inertia and Collision Tags in the URDF                                                                                 | - Spawn the robot<br>- Fixing inertia values<br>- Create a world in Gazebo<br>- Launch robot in the world                       |
+| **TurtleBotX**                  | - Introduction to TurtleBot3<br>- Simulation of Sensors and Actuator                                                                                              | - Basic TurtleBot3 Controls Architecture using Teleoperation and Sensor Data                                                    |
+| **SLAM (Mapping)**              | - Introduction to Navigation2 Stack in ROS2<br>- Where and Why to use it?<br>- Installing Nav2 stack, tools to use                                                | - Introduction to Simultaneous Localization and Mapping (SLAM)<br>- Hands-on generating and saving the map with SLAM            |
+| **SLAM (Navigation)**           | - Hands-on Navigate using generated map<br>- Waypoint following for TurtleBot3                                                                                    | - Dynamic Obstacle Avoidance<br>- Understanding Global and Local Planning Methods                                               |
 
 ---
 
