@@ -2,8 +2,6 @@
 
 A **Multi-Layer Perceptron (MLP)** is a type of feedforward artificial neural network (ANN) consisting of multiple layers of neurons. Each neuron computes a weighted sum of its inputs $`z = \sum_{i=1}^{n} w_i x_i + b`$ and applies a non-linear activation function $`a = f(z)`$, enabling the network to learn and model complex data patterns.
 
----
-
 ## Key Concepts
 
 ### What is a Perceptron?
