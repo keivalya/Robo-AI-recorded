@@ -1,46 +1,29 @@
-## Artificial Neural Network: Perceptron
+# Artificial Neural Network: Perceptron
 
 The **Perceptron** is one of the simplest types of Artificial Neural Networks and serves as the foundation for more complex models. It is a **binary linear classifier** that separates data into two categories using a linear decision boundary.
 
-### Components of the Perceptron
+## Components of the Perceptron
 
 1. **Input Layer**: 
-   - Accepts feature vectors \( \mathbf{x} \in \mathbb{R}^n \), where \( n \) is the number of features.
+   - Accepts feature vectors $`\mathbf{x} \in \mathbb{R}^n`$, where $`n`$ is the number of features.
 2. **Weights**: 
-   - A vector \( \mathbf{w} \) that represents the importance of each feature.
+   - A vector $`\mathbf{w}`$ that represents the importance of each feature.
 3. **Bias**: 
-   - A scalar \( b \) that allows the model to shift the decision boundary.
+   - A scalar $`b`$ that allows the model to shift the decision boundary.
 4. **Activation Function**:
-   - A non-linear function that maps the linear output \( z = \mathbf{w} \cdot \mathbf{x} + b \) to a binary output \( y \in \{0, 1\} \).
+   - A non-linear function that maps the linear output $`z = \mathbf{w} \cdot \mathbf{x} + b`$ to a binary output $`y \in \{0, 1\}`$.
 
-### Mathematical Formulation
+## Mathematical Formulation
 
 1. **Linear Output**:
-   \[
-   z = \mathbf{w} \cdot \mathbf{x} + b
-   \]
+   $`z = \mathbf{w} \cdot \mathbf{x} + b`$
 
-2. **Prediction Rule**:
-   \[
-   \hat{y} = f(z) = 
-   \begin{cases} 
-   1 & \text{if } z > 0 \\ 
-   0 & \text{otherwise} 
-   \end{cases}
-   \]
+2. **Prediction Rule**: The predicted output $`\hat{y}`$ is determined as $`f(z) = \begin{cases} 1 & \text{if } z > 0 \\ 0 & \text{otherwise} \end{cases}`$.
 
-3. **Weight Update Rule**:
-   - If the prediction is incorrect:
-   \[
-   \mathbf{w} = \mathbf{w} + \eta \cdot (y_{\text{true}} - \hat{y}) \cdot \mathbf{x}
-   \]
-   \[
-   b = b + \eta \cdot (y_{\text{true}} - \hat{y})
-   \]
+3. **Weight Update Rule**: If the prediction is incorrect, the weights and bias are updated as follows: $`\mathbf{w} = \mathbf{w} + \eta \cdot (y_{\text{true}} - \hat{y}) \cdot \mathbf{x}`$ and $`b = b + \eta \cdot (y_{\text{true}} - \hat{y})`$.
+   Here, $`\eta`$ is the learning rate.
 
-   Here, \( \eta \) is the learning rate.
-
-### Training Procedure
+## Training Procedure
 
 1. Initialize weights and bias to zero.
 2. For each sample:
@@ -48,25 +31,22 @@ The **Perceptron** is one of the simplest types of Artificial Neural Networks an
    - Update weights and bias if the prediction is incorrect.
 3. Repeat for a fixed number of iterations or until convergence.
 
-### Advantages
+## Advantages
 
 - Simple and computationally efficient.
 - Works well for linearly separable data.
 
-### Limitations
+## Limitations
 
 - Cannot handle non-linear decision boundaries.
 - Sensitive to feature scaling.
 
-### Example Output
+---
 
-- Visualization of decision boundary separating two classes in a 2D dataset.
-- Classification accuracy metric for model evaluation.
+## Example Code
 
-## Step-by-step code
-
-### Step 1: Importing libraries
-First, we import all the libraries needed for data generation, visualization, and numerical operations.
+### Step 1: Importing Libraries
+We import the necessary libraries for data generation, visualization, and numerical operations.
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -75,7 +55,7 @@ from sklearn import datasets
 ```
 
 ### Step 2: Generate and Visualize the Dataset
-We create a simple two-class dataset using `sklearn.datasets.make_blobs`. Then, we plot the dataset to understand its structure.
+We create a two-class dataset using `sklearn.datasets.make_blobs` and plot it.
 ```python
 X, y = datasets.make_blobs(n_samples=150, n_features=2, centers=2, cluster_std=1.05, random_state=2)
 
@@ -88,6 +68,7 @@ plt.show()
 ```
 
 ### Step 3: Split the Dataset
+We split the data into training and testing sets.
 ```python
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=123)
 
@@ -96,13 +77,15 @@ print("Testing samples:", len(X_test))
 ```
 
 ### Step 4: Define the Activation Function
+The Perceptron uses a unit step function for activation.
 ```python
 def unit_step_func(x):
     return np.where(x > 0, 1, 0)
 ```
 
 ### Step 5: Build the Perceptron Class
-We define the Perceptron class step-by-step, explaining its initialization, training (`fit`), and prediction (`predict`) methods.
+We define the Perceptron class with methods for initialization, training, and prediction.
+
 #### 5.1 - Initialization
 ```python
 class Perceptron:
@@ -114,8 +97,8 @@ class Perceptron:
         self.bias = None
 ```
 
-#### 5.2 Training (`fit`)
-The `fit` method learns weights and bias using the perceptron update rule.
+#### 5.2 - Training (`fit`)
+The `fit` method learns weights and bias using the Perceptron update rule.
 ```python
     def fit(self, X, y):
         n_samples, n_features = X.shape
@@ -133,8 +116,8 @@ The `fit` method learns weights and bias using the perceptron update rule.
                 self.bias += update
 ```
 
-#### 5.3 Prediction (`predict`)
-The `predict` method uses the trained weights and bias to make predictions on new data.
+#### 5.3 - Prediction (`predict`)
+The `predict` method uses the trained weights and bias for predictions.
 ```python
     def predict(self, X):
         linear_output = np.dot(X, self.weights) + self.bias
@@ -142,21 +125,24 @@ The `predict` method uses the trained weights and bias to make predictions on ne
 ```
 
 ### Step 6: Train the Perceptron
+Train the perceptron on the training dataset.
 ```python
 p = Perceptron(learning_rate=0.01, n_iters=1000)
 p.fit(X_train, y_train)
 ```
 
 ### Step 7: Evaluate the Perceptron
+Calculate the accuracy of the Perceptron model.
 ```python
 def accuracy(y_true, y_pred):
     return np.sum(y_true == y_pred) / len(y_true)
+
 y_pred = p.predict(X_test)
 print("Model accuracy:", accuracy(y_test, y_pred))
 ```
 
 ### Step 8: Visualize the Decision Boundary
-Finally, we visualize the decision boundary learned by the perceptron.
+Visualize the decision boundary learned by the Perceptron.
 ```python
 plt.figure(figsize=(8, 6))
 plt.scatter(X_train[:, 0], X_train[:, 1], c=y_train, cmap='viridis', s=50)
