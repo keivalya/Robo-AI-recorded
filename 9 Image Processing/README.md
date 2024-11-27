@@ -4,6 +4,8 @@
 
 Image Processing is a fundamental field in computer vision and digital image manipulation. It involves the manipulation and analysis of images to enhance their quality, extract meaningful information, or prepare them for further processing.
 
+Source for Lanna image: [Lanna](http://www.lenna.org/)
+
 ### What is an Image?
 
 An image is a visual representation of data. For humans, an image is perceived through vision as a combination of colors and shapes. Computers, on the other hand, interpret an image as a matrix or grid of numerical values representing pixel intensities.
