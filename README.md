@@ -8,17 +8,6 @@ This repository contains a structured guide for topics in Python, Artificial Int
 
 ---
 
----
-
-## Connect with Me 🌐
-
-- [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/keivalya)
-- [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/keivalya)
-- [![Website](https://img.shields.io/badge/Personal%20Website-FF7139?style=for-the-badge&logo=firefox&logoColor=white)](https://www.keivalya.com)
-
-
----
-
 ## Artificial Intelligence / Machine Learning Topics Covered
 
 | **Topic Name**              | **Basic**                                                                                                                                 | **Advanced**                                                                                                           |
@@ -50,6 +39,14 @@ This repository contains a structured guide for topics in Python, Artificial Int
 | **TurtleBotX**                  | - Introduction to TurtleBot3<br>- Simulation of Sensors and Actuator                                                                                              | - Basic TurtleBot3 Controls Architecture using Teleoperation and Sensor Data                                                    |
 | **SLAM (Mapping)**              | - Introduction to Navigation2 Stack in ROS2<br>- Where and Why to use it?<br>- Installing Nav2 stack, tools to use                                                | - Introduction to Simultaneous Localization and Mapping (SLAM)<br>- Hands-on generating and saving the map with SLAM            |
 | **SLAM (Navigation)**           | - Hands-on Navigate using generated map<br>- Waypoint following for TurtleBot3                                                                                    | - Dynamic Obstacle Avoidance<br>- Understanding Global and Local Planning Methods                                               |
+
+---
+
+## Connect with Me 🌐
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/keivalya)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/keivalya)
+[![Website](https://img.shields.io/badge/Personal%20Website-FF7139?style=for-the-badge&logo=firefox&logoColor=white)](https://www.keivalya.com)
 
 ---
 
