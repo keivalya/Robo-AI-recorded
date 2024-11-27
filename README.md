@@ -8,6 +8,17 @@ This repository contains a structured guide for topics in Python, Artificial Int
 
 ---
 
+---
+
+## Connect with Me 🌐
+
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/keivalya)
+- [![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/keivalya)
+- [![Website](https://img.shields.io/badge/Personal%20Website-FF7139?style=for-the-badge&logo=firefox&logoColor=white)](https://www.keivalya.com)
+
+
+---
+
 ## Artificial Intelligence / Machine Learning Topics Covered
 
 | **Topic Name**              | **Basic**                                                                                                                                 | **Advanced**                                                                                                           |
@@ -49,7 +60,7 @@ This repository is organized into directories corresponding to each topic. Each 
 - Exercises
 - Project Templates
 
-Feel free to explore and contribute to the content!
+Feel free to explore and contribute to the content! To provide your feedback, feel free to raise an issue (tab at the top), and comment your valuable insights.
 
 ---
 
