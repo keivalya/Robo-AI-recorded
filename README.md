@@ -57,7 +57,7 @@ This repository is organized into directories corresponding to each topic. Each 
 - Exercises
 - Project Templates
 
-Feel free to explore and contribute to the content! To provide your feedback, feel free to raise an issue (tab at the top), and comment your valuable insights.
+Feel free to explore and contribute to the content! **To provide your feedback, feel free to raise an issue (tab at the top), and comment your valuable insights.**
 
 ---
 
