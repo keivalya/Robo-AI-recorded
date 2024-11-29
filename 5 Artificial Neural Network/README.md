@@ -99,6 +99,30 @@ class Perceptron:
 
 #### 5.2 - Training (`fit`)
 The `fit` method learns weights and bias using the Perceptron update rule.
+### Mathematical Representation
+
+The code implements an iterative fitting algorithm for a simple classification task. The process can be represented as follows:
+
+1. **Initialization**:
+   - Weights: $`\mathbf{w} = \mathbf{0} \in \mathbb{R}^{n_{\text{features}}}`$
+   - Bias: $`b = 0`$
+
+2. **Prediction (Linear Model)**:
+   $`\hat{y} = \text{activationFunc}(\mathbf{x} \cdot \mathbf{w} + b)`$
+
+3. **Update Rule (Per Sample)**:
+   For each sample $`i`$, calculate:
+   - $`\text{update} = \eta (y_i - \hat{y}_i)`$
+   - Update weights: $`\mathbf{w} \leftarrow \mathbf{w} + \text{update} \cdot \mathbf{x}_i`$
+   - Update bias: $`b \leftarrow b + \text{update}`$
+
+Where:
+- $`\eta`$ is the learning rate (`self.lr`).
+- $`y_i`$ is the true label (binary, converted to 0 or 1).
+- $`\hat{y}_i`$ is the predicted output using the activation function.
+
+This process is repeated for `n_iters` iterations or until convergence.
+
 ```python
     def fit(self, X, y):
         n_samples, n_features = X.shape
@@ -117,7 +141,22 @@ The `fit` method learns weights and bias using the Perceptron update rule.
 ```
 
 #### 5.3 - Prediction (`predict`)
-The `predict` method uses the trained weights and bias for predictions.
+The `predict` method uses the trained weights and bias for predictions. This method calculates the output of the model for input data $`X`$. The formula is:
+
+1. **Linear Output**:
+   $`\text{linearOutput} = X \cdot \mathbf{w} + b`$
+
+2. **Activation Function**:
+   $`\hat{y} = \text{activationFunc}(\text{linearOutput})`$
+
+Where:
+- $`X`$ is the input matrix of shape $`(n_{\text{samples}}, n_{\text{features}})`$.
+- $`\mathbf{w}`$ is the weight vector of shape $`(n_{\text{features}})`$.
+- $`b`$ is the bias term.
+- $`\hat{y}`$ is the predicted output after applying the activation function.
+
+This method computes the predicted values $`\hat{y}`$ for all samples in $`X`$.
+
 ```python
     def predict(self, X):
         linear_output = np.dot(X, self.weights) + self.bias
