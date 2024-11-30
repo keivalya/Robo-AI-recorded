@@ -88,8 +88,7 @@ with gr.Blocks() as chatbot_gui:
 chatbot_gui.launch()
 ```
 
-**New Chatbot Interface from HF🤗**
-Source: https://www.gradio.app/docs/gradio/chatbot
+**New Chatbot Interface from HF🤗** (source: https://www.gradio.app/docs/gradio/chatbot)
 ```python
 import gradio as gr
 import random
