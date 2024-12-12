@@ -19,6 +19,8 @@ Hugging Face is a platform offering state-of-the-art natural language processing
 pip install transformers datasets gradio --quiet
 ```
 
+*Reference project link: https://github.com/keivalya/yoda-chatbot*
+
 ---
 
 ## **2. Hands-on Project Development**
