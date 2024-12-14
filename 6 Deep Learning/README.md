@@ -120,3 +120,28 @@ Implementing a Multi-Layer Perceptron in TensorFlow is modular and straightforwa
 - Fine-tune the learning process using different hyperparameters.
 
 Start building your own MLP models today!
+
+---
+## Bonus
+Use the following code to visualize `mnist` dataset in python notebook.
+```python
+import matplotlib.pyplot as plt
+from tensorflow.keras.datasets import mnist
+
+# Load MNIST dataset
+(x_train, y_train), (x_test, y_test) = mnist.load_data()
+
+# Visualize some samples from the training set
+def visualize_mnist(images, labels, num_samples=16):
+    plt.figure(figsize=(10, 10))
+    for i in range(num_samples):
+        plt.subplot(4, 4, i + 1)
+        plt.imshow(images[i], cmap='gray')
+        plt.title(f"Label: {labels[i]}")
+        plt.axis('off')
+    plt.tight_layout()
+    plt.show()
+
+# Display 16 random samples
+visualize_mnist(x_train, y_train)
+```
