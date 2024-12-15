@@ -2,6 +2,8 @@
 
 ## Windows
 
+Most prefered reference for Windows: [Install ROS2 on Windows](https://youtu.be/jm8WMgwu10s?si=8juhC_WsY6D9ZQpP)
+
 ### Installing Oracle VirtualBox and Ubuntu 22.04
 
 1. Download Oracle VirtualBox from the official website and install it on your Windows machine.
