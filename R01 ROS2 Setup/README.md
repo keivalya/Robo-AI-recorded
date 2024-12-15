@@ -62,6 +62,8 @@ Most prefered reference for Windows: [Install ROS2 on Windows](https://youtu.be/
 
 ## macOS
 
+**Mainly follow [this](https://www.youtube.com/watch?v=i8yUvohhAXw) Video to create a VM, and then install ROS2**
+
 For macOS users, UTM is an excellent choice for creating virtual machines, especially on Macs with Apple Silicon (M1, M2, or M3 chips). Here's how to set up UTM and create a virtual machine:
 
 ### Installing UTM
