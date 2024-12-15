@@ -47,8 +47,8 @@ Content is thoughtfully divided into **Basic** and **Advanced** tiers for seamle
 ## 🌐 Connect with Me 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/keivalya)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/keivalya)
 [![Website](https://img.shields.io/badge/Personal%20Website-FF7139?style=for-the-badge&logo=firefox&logoColor=white)](https://www.keivalya.com)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/keivalya)
 
 ---
 
