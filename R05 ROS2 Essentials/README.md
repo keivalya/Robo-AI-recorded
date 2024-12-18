@@ -162,14 +162,15 @@ if __name__ == '__main__':
 
 This code demonstrates the core concepts of ROS2, including nodes, topics, services, launch files, workspaces, packages, and transforms. These elements form the foundation for building complex robotic systems using ROS2[1][2][3][4][5][6][7][8][9][10].
 
-Sources
-[1] ROS2 Python Launch File Example - How to Start All Your Nodes at ... https://roboticsbackend.com/ros2-launch-file-example/
-[2] Tutorial: ROS2 launch files - All you need to know - Robotics Casual https://roboticscasual.com/tutorial-ros2-launch-files-all-you-need-to-know/
-[3] The Transform System (tf2) - Articulated Robotics https://articulatedrobotics.xyz/tutorials/ready-for-ros/tf/
-[4] Tf2 — ROS 2 Documentation: Humble documentation https://docs.ros.org/en/humble/Concepts/Intermediate/About-Tf2.html
-[5] ROS2 Basics Exercise - ROS Industrial Training - Read the Docs https://industrial-training-master.readthedocs.io/en/melodic/_source/session7/ROS2-Basics.html
-[6] Integrating launch files into ROS 2 packages https://docs.ros.org/en/foxy/Tutorials/Intermediate/Launch/Launch-system.html
-[7] Introducing tf2 — ROS 2 Documentation: Foxy documentation https://docs.ros.org/en/foxy/Tutorials/Intermediate/Tf2/Introduction-To-Tf2.html
-[8] Launch — ROS 2 Documentation: Foxy documentation https://docs.ros.org/en/foxy/Tutorials/Intermediate/Launch/Launch-Main.html
-[9] How to Use ROS 2 Launch Files - Foxglove https://foxglove.dev/blog/how-to-use-ros2-launch-files
-[10] Launch Files - ROS Industrial Training - Read the Docs https://industrial-training-master.readthedocs.io/en/foxy/_source/session2/ros2/2-Launch-Files.html
+## Sources
+
+- [1] ROS2 Python Launch File Example - How to Start All Your Nodes at ... https://roboticsbackend.com/ros2-launch-file-example/
+- [2] Tutorial: ROS2 launch files - All you need to know - Robotics Casual https://roboticscasual.com/tutorial-ros2-launch-files-all-you-need-to-know/
+- [3] The Transform System (tf2) - Articulated Robotics https://articulatedrobotics.xyz/tutorials/ready-for-ros/tf/
+- [4] Tf2 — ROS 2 Documentation: Humble documentation https://docs.ros.org/en/humble/Concepts/Intermediate/About-Tf2.html
+- [5] ROS2 Basics Exercise - ROS Industrial Training - Read the Docs https://industrial-training-master.readthedocs.io/en/melodic/_source/session7/ROS2-Basics.html
+- [6] Integrating launch files into ROS 2 packages https://docs.ros.org/en/foxy/Tutorials/Intermediate/Launch/Launch-system.html
+- [7] Introducing tf2 — ROS 2 Documentation: Foxy documentation https://docs.ros.org/en/foxy/Tutorials/Intermediate/Tf2/Introduction-To-Tf2.html
+- [8] Launch — ROS 2 Documentation: Foxy documentation https://docs.ros.org/en/foxy/Tutorials/Intermediate/Launch/Launch-Main.html
+- [9] How to Use ROS 2 Launch Files - Foxglove https://foxglove.dev/blog/how-to-use-ros2-launch-files
+- [10] Launch Files - ROS Industrial Training - Read the Docs https://industrial-training-master.readthedocs.io/en/foxy/_source/session2/ros2/2-Launch-Files.html
