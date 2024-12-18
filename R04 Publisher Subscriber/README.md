@@ -165,14 +165,15 @@ You should see the publisher sending messages and the subscriber receiving them[
 
 This hands-on example demonstrates the basic implementation of the Publisher-Subscriber architecture in ROS2 using Python and OOP principles. It showcases how nodes can communicate asynchronously, enabling modular and scalable robotic systems.
 
-Sources
-[1] Understanding the Publish-Subscribe Mechanism in ROS 2 https://www.roboticscontentlab.com/blog/publish-and-subscribe-mechanism-with-ros-2-rclpy/
-[2] ROS 2 Communication Basics: Publishers, Subscribers, Topics https://automaticaddison.com/ros-2-communication-basics-publishers-subscribers-topics/
-[3] Create a Basic Publisher and Subscriber (Python) | ROS2 Foxy https://automaticaddison.com/create-a-basic-publisher-and-subscriber-python-ros2-foxy/
-[4] Create a ROS2 Topic: Publisher and Subscriber Nodes in Python ... https://www.roboticsunveiled.com/ros2-topic-python-and-cpp/
-[5] Hands-On ROS2 - Part 1 (Publisher/Subscriber) - YouTube https://www.youtube.com/watch?v=8407qTyBRe0
-[6] Writing a simple publisher and subscriber (Python) https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Py-Publisher-And-Subscriber.html
-[7] ROS 2 Generic Publisher and Subscriber — Omniverse IsaacSim https://docs.omniverse.nvidia.com/isaacsim/latest/ros2_tutorials/tutorial_ros2_generic_publisher_subscriber.html
-[8] Understanding ROS 2 nodes with a simple Publisher - Subscriber pair https://ros2-industrial-workshop.readthedocs.io/en/latest/_source/basics/ROS2-Simple-Publisher-Subscriber.html
-[9] Writing a simple publisher and subscriber (C++) - ROS Documentation https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Cpp-Publisher-And-Subscriber.html
-[10] Learn ROS 2 - Intro: Topics - Hadabot https://www.hadabot.com/learn-ros2-intro-topics.html?step=ros2-pub-sub-overview
+## Sources
+
+- [1] Understanding the Publish-Subscribe Mechanism in ROS 2 https://www.roboticscontentlab.com/blog/publish-and-subscribe-mechanism-with-ros-2-rclpy/
+- [2] ROS 2 Communication Basics: Publishers, Subscribers, Topics https://automaticaddison.com/ros-2-communication-basics-publishers-subscribers-topics/
+- [3] Create a Basic Publisher and Subscriber (Python) | ROS2 Foxy https://automaticaddison.com/create-a-basic-publisher-and-subscriber-python-ros2-foxy/
+- [4] Create a ROS2 Topic: Publisher and Subscriber Nodes in Python ... https://www.roboticsunveiled.com/ros2-topic-python-and-cpp/
+- [5] Hands-On ROS2 - Part 1 (Publisher/Subscriber) - YouTube https://www.youtube.com/watch?v=8407qTyBRe0
+- [6] Writing a simple publisher and subscriber (Python) https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Py-Publisher-And-Subscriber.html
+- [7] ROS 2 Generic Publisher and Subscriber — Omniverse IsaacSim https://docs.omniverse.nvidia.com/isaacsim/latest/ros2_tutorials/tutorial_ros2_generic_publisher_subscriber.html
+- [8] Understanding ROS 2 nodes with a simple Publisher - Subscriber pair https://ros2-industrial-workshop.readthedocs.io/en/latest/_source/basics/ROS2-Simple-Publisher-Subscriber.html
+- [9] Writing a simple publisher and subscriber (C++) - ROS Documentation https://docs.ros.org/en/foxy/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Cpp-Publisher-And-Subscriber.html
+- [10] Learn ROS 2 - Intro: Topics - Hadabot https://www.hadabot.com/learn-ros2-intro-topics.html?step=ros2-pub-sub-overview
