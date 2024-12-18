@@ -211,13 +211,13 @@ Run this node after starting TurtleSim to control the turtle with your keyboard.
 This tutorial provides a hands-on introduction to creating ROS2 nodes using Python with OOP, implementing a talker-listener demo, and working with TurtleSim and teleoperation. These examples serve as a foundation for more complex ROS2 applications. Happy coding!
 
 Sources
-[1] Write a Minimal ROS2 Python Node - The Robotics Back-End https://roboticsbackend.com/write-minimal-ros2-python-node/
-[2] H17 P2 Programming in ROS: Playing with multiple Turtlesim robots https://www.youtube.com/watch?v=K99-EVtzmhI
-[3] Create a ROS2 Node with Python and OOP - ROS2 Tutorial 5 https://www.youtube.com/watch?v=wfCuPQ_6VbI
-[4] ROS Turtlesim - YouTube https://www.youtube.com/watch?v=xwT7XWflMdc
-[5] OOP with ROS in Python - The Robotics Back-End https://roboticsbackend.com/oop-with-ros-in-python/
-[6] [F1tenth (F1/10) Lab 1]: Learning ROS with Turtlesim - YouTube https://www.youtube.com/watch?v=wY-b25PUTro
-[7] Switch scripts to OOP? : r/learnpython - Reddit https://www.reddit.com/r/learnpython/comments/qxc3dd/switch_scripts_to_oop/
-[8] Using turtlesim, ros2, and rqt — ROS 2 Documentation https://docs.ros.org/en/foxy/Tutorials/Beginner-CLI-Tools/Introducing-Turtlesim/Introducing-Turtlesim.html
-[9] Object-Oriented Programming (OOP) in Python https://realpython.com/python3-object-oriented-programming/
-[10] ros-tutorial-robot-control-vision/README_full.md at master - GitHub https://github.com/SMARTlab-Purdue/ros-tutorial-robot-control-vision/blob/master/README_full.md
+- [1] Write a Minimal ROS2 Python Node - The Robotics Back-End https://roboticsbackend.com/write-minimal-ros2-python-node/
+- [2] H17 P2 Programming in ROS: Playing with multiple Turtlesim robots https://www.youtube.com/watch?v=K99-EVtzmhI
+- [3] Create a ROS2 Node with Python and OOP - ROS2 Tutorial 5 https://www.youtube.com/watch?v=wfCuPQ_6VbI
+- [4] ROS Turtlesim - YouTube https://www.youtube.com/watch?v=xwT7XWflMdc
+- [5] OOP with ROS in Python - The Robotics Back-End https://roboticsbackend.com/oop-with-ros-in-python/
+- [6] [F1tenth (F1/10) Lab 1]: Learning ROS with Turtlesim - YouTube https://www.youtube.com/watch?v=wY-b25PUTro
+- [7] Switch scripts to OOP? : r/learnpython - Reddit https://www.reddit.com/r/learnpython/comments/qxc3dd/switch_scripts_to_oop/
+- [8] Using turtlesim, ros2, and rqt — ROS 2 Documentation https://docs.ros.org/en/foxy/Tutorials/Beginner-CLI-Tools/Introducing-Turtlesim/Introducing-Turtlesim.html
+- [9] Object-Oriented Programming (OOP) in Python https://realpython.com/python3-object-oriented-programming/
+- [10] ros-tutorial-robot-control-vision/README_full.md at master - GitHub https://github.com/SMARTlab-Purdue/ros-tutorial-robot-control-vision/blob/master/README_full.md
