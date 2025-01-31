@@ -6,8 +6,6 @@
 
 Welcome to the **Robo-AI-Recorded** repository—a meticulously curated guide to mastering **Python**, **Artificial Intelligence**, **Machine Learning**, and **Robot Operating System (ROS)**. Whether you're a beginner or an advanced learner, this repository offers a structured path to enhance your expertise across these cutting-edge technologies.
 
-Content is thoughtfully divided into **Basic** and **Advanced** tiers for seamless learning progression.
-
 ---
 
 ## 🤖 Artificial Intelligence / Machine Learning Topics Covered
