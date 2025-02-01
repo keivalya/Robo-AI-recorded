@@ -60,7 +60,7 @@ This repository is organized into directories corresponding to each topic. Each 
 - 🧠 Exercises
 - 🔨 Project Templates
 
-**Contributions are welcome!** Raise an issue or comment with your feedback to help improve the content.
+*Raise an [issue](https://github.com/keivalya/Robo-AI-recorded/issues) or [comment with your feedback](https://github.com/keivalya/Robo-AI-recorded/issues) to help improve the content.*
 
 ---
 
