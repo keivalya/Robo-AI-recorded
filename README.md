@@ -6,6 +6,8 @@
 
 Welcome to the **Robo-AI-Recorded** repository—a meticulously curated guide to mastering **Python**, **Artificial Intelligence**, **Machine Learning**, and **Robot Operating System (ROS)**. Whether you're a beginner or an advanced learner, this repository offers a structured path to enhance your expertise across these cutting-edge technologies.
 
+Keep reviewing your major projects in [Artificial Intelligence (AI)](major_project_ai.md) and [Robot Operating System (ROS2)](major_project_ros2.md) and start planning from early onwards. Use GitHub issues tab to start a discussion regarding your project with me and your peers. If you see anyone facing any issue, please help your peers in their project (with ideas, not code). **It is mandatory for all to review the [CODE OF CONDUCT](CODE_OF_CONDUCT.md) of this course before taking it.
+
 ---
 
 ## 🤖 Artificial Intelligence / Machine Learning Topics Covered
