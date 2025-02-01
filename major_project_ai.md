@@ -1,10 +1,8 @@
-# 🚀 Major Project for this course for AI
+# 🚀 Artificial Intelligence (AI) Major Project
 
 Each project is designed to enhance your understanding of AI concepts while providing hands-on experience. Let’s dive in! You have to pick any **ONE** of the following projects and build it from grounds up. **Remember, you will have to deploy your project to the web so that the course team can access it online!**
 
 ---
-
-## 🛠️ **10 Beginner-Level AI Projects**
 
 ### 1. **Spam Email Detector**
    - **Description**: Build a model to classify emails as spam or not spam using machine learning algorithms like Naive Bayes or SVM.
@@ -229,5 +227,6 @@ Each project is designed to enhance your understanding of AI concepts while prov
 - Start small and gradually increase complexity.
 - Use open-source tools and libraries like TensorFlow, PyTorch, and Hugging Face.
 - Document your progress and share your projects on GitHub.
+- Raise GitHub issue to start a discussion or ask query regarding your project.
 
 Happy building! 🚀
