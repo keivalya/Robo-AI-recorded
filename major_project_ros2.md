@@ -20,6 +20,7 @@ Each project is designed to enhance your understanding of **ROS2 (Robot Operatin
 ### 2. **ROS2-Based Robotic Arm Control**
    - **Description**: Control a robotic arm using ROS2 and MoveIt2 for motion planning and execution.
    - **Hints**:
+     - Learn [MoveIt2](https://moveit.picknik.ai/main/index.html) from its documentation.
      - Use a robotic arm like UR5 or a custom arm with ROS2 drivers.
      - Configure MoveIt2 for inverse kinematics and trajectory planning.
    - **Intermediate Steps**:
